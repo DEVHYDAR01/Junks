@@ -1,23 +1,8 @@
 #include <stdio.h>
 
-int _strlen(char *s)
+int main(void)
 {
 
-	int i;
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-	return (i);
-}
-
-int main(void)
-{	char *str;
-	int len;
-
-	str = "my school!";
-	len = _strlen(str);
-	printf("%d\n", len);
-
-	return (0);
+	char name [] = "lucky";
+	char *name = "lucky";
 }
