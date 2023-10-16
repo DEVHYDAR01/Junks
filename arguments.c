@@ -4,7 +4,7 @@ int main(int argc, char *argv[])
 {
 	printf ("%d\n", argc);
 
-	int i
+	int i;
 
 	for (i = 0; argv[i]; i++)
 	{
