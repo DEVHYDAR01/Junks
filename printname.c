@@ -4,7 +4,7 @@
  */
 int main(void)
 {
-	char *name[5 + 1];
+	char name[100];
 
 	printf("please enter your name\n");
 	scanf("%s\n", &name);
