@@ -4,4 +4,4 @@ y=7
 echo "$x and $y"
 
 env | grep HOME
-env | grep -E 'HOME|USER|VERSION|SHELL'
+env | grep -E 'HOME|USER|VERSION|SHELL|PWD'
